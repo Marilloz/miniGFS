@@ -1,0 +1,27 @@
+Primera practica en grupo de SD
+
+Realizada por Marcos Martin Sandeogracias y Carlos Torres de La Hoz
+
+Dificultades Encontradas:
+    -1: Programar en triqui (de manera remota), ha sido un poco dificil programar con triqui dada las opciones que ofrece.
+    Ya que hay que estar siempre conectado a la VPN, lo que baja tu ancho de banda ralentizando las conexiones del ordenador.
+    Además de que no tiene una interfaz gráfica muy desarrollada y no permite que los 2 integrantes escriban de manera simultanea.
+    
+    -2: En el momento de leer todos los Bytes de un fichero no conseguiamos sacarlos sin tener el tamaño del Byte.
+    
+
+    -3: A la hora de propagar la escritura entendimos que el mismo nodo estaba contenido en la lista de nodos y no tenia que escribir en ese momento.
+
+Soluciones:
+    -1: La extesión ssh de Visual Studio que permite programar en triqui usando la interfaz de Visual Studio.
+
+    -2: Gracias a la ayuda de un compañero nos dimos cuenta de que estabamos leyendo la documentación de java 7 
+    y en java 9 se incluia una funcion que permite leer todos los bytes del fichero
+    
+    -3: Dado que siempre faltaba el primer nodo probamos a escribir también en el mismo y funcionó.
+
+Opiniones
+
+    -En general la práctica estaba bien, su dificultad era adecuada y el tiempo apara realizarla también era adecuado.
+    -Aunque como fallo decir que casi no incluia nada de RMI que a priori parecía el tema de la práctica;
+    -Además agradecer al profe por todas las respuestas a los correos que fueron de grán utilidad.

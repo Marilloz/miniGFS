@@ -1,0 +1,13 @@
+./arranca_rmiregistry.sh 2772 &
+./ejecuta_master.sh 2772 2 # 2 réplicas
+
+./ejecuta_datanode.sh triqui3 2772 nodo1
+
+./ejecuta_datanode.sh triqui3 2772 nodo2
+
+./ejecuta_datanode.sh triqui3 2772 nodo3
+
+export BROKER_PORT=2772
+export BROKER_HOST=triqui3
+export CHUNKSIZE=16 # pequeño para las pruebas
+./ejecuta.sh Test
